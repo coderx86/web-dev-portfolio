@@ -139,3 +139,32 @@ main section{
     display: flex;
     gap: 24px;
 }
+/* resume section styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-title{
+    font-weight: bold;
+    font-size: 25px;
+}
+/* .experience-subtitle, .experience-description{
+    color: rgba(117, 117, 117, 1);
+    font-weight: 600, none;
+    font-size: 20px, 16px;
+} */
+.experience-subtitle{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(117, 117, 117, 1);
+}
+.experience-description{
+    font-size: 16px;
+    color: rgba(117, 117, 117, 1);
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.download-resume-cv-btn{
+    margin-top: 50px;
+}
